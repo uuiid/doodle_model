@@ -7,11 +7,13 @@
 #include "ModelLibraryGameModeBase.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class MODELLIBRARY_API AModelLibraryGameModeBase : public AGameModeBase
 {
-	GENERATED_BODY()
-	
+  GENERATED_BODY()
+
+
+  virtual void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) override;
 };

@@ -3,6 +3,13 @@
 	"EngineAssociation": "{25D896BF-4A9A-226F-C40C-2FACF327C549}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ModelLibrary",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "OpenXR",
